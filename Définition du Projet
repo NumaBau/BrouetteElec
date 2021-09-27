@@ -10,9 +10,15 @@ Résultat attendu (V1):
 
 Travail à réaliser:
 
-- 
+- Savoir quelles sont les pièces et éléments récupérables sur une trotinette électrique.
+- Caractériser ces pièces (V, I, C, w,...) [A]
 
 - Définir les spécifications de notre brouette électrique
-- Traduire ces spécifications en termes électrotechniques
+- Traduire ces spécifications en termes électrotechniques [B]
 
-- 
+- Joindre [A] et [B] => développer le système [C]
+
+- Développer le code Matlab pour le controle de [C]
+
+
+- A chaque etape, DOCUMENTER.
