@@ -1,0 +1,18 @@
+Objectif: être capable de mettre au point une brouette électrique fonctionnelle à partir de composants récupérés sur des trotinettes électriques. Nous visons à placer ce projet dans une démarche low-tech et pédagogique => pas de création de valeur, mise à disposition de notre travail en open source via le challenge de La Fabrique des Mobilités ou autre.
+
+Résultat attendu (V1): 
+
+- Liste des composants nécessaires dans une ou plusieurs trotinettes pour la mise au point de notre modèle de brouette électrique.
+- Spécification et Cahier des Charges de la brouette electrique réalisable à travers notre méthode.
+- Code Matlab requis pour la programmation de la brouette mis en OpenSource => évolution possible: passer de Matlab à un logiciel OpenSource (Python, Modelica, etc...).
+- Documentation du/des schéma(s) électrique(s) à souder pour la mise au point de la brouette.
+- Prototype de Brouette électrique réalisée selon notre méthode.
+
+Travail à réaliser:
+
+- 
+
+- Définir les spécifications de notre brouette électrique
+- Traduire ces spécifications en termes électrotechniques
+
+- 
