@@ -20,5 +20,10 @@ Travail à réaliser:
 
 - Développer le code Matlab pour le controle de [C]
 
+- se renseigner sur la CAN 
+- snifer le bloc commande pour analyser les trames et ainsi pouvoir controler la roue grâce à une carte et le bloc commande (en connectant la carte au variateur et au bloc commande)
+- asservir en courant notre carte pour ne pas griller les composants avec un rapport cyclique trop grand (avec en consigne le courant d'essai de la carte)
+- contacter dott pour ... documentation, possibilité d'avoir une trotinette fonctionnelle pour analyser les trames, 
+ 
 
 - A chaque etape, DOCUMENTER.
