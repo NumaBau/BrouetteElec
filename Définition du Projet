@@ -20,10 +20,14 @@ Travail à réaliser:
 
 - Développer le code Matlab pour le controle de [C]
 
-- se renseigner sur la CAN 
-- snifer le bloc commande pour analyser les trames et ainsi pouvoir controler la roue grâce à une carte et le bloc commande (en connectant la carte au variateur et au bloc commande)
-- asservir en courant notre carte pour ne pas griller les composants avec un rapport cyclique trop grand (avec en consigne le courant d'essai de la carte)
+
+A faire (14/10/2021):
+
+- cabler la roue/moteur sur la carte afin de la faire tourner => trouver la bonne configuration pour les sondes effet Hall/phases du moteur.
+- se renseigner sur les CAN (structure physique?).
+- asservir en courant notre carte pour ne pas griller les composants avec un rapport cyclique trop grand (avec en consigne le courant d'essai de la carte) => dimensionner un PI (ou PID filtré?) pour le 6 step
 - contacter dott pour ... documentation, possibilité d'avoir une trotinette fonctionnelle pour analyser les trames, 
- 
+- snifer le bloc commande pour analyser les trames et ainsi pouvoir controler la roue grâce à une carte et le bloc commande (en connectant la carte au variateur et au bloc commande)
+
 
 - A chaque etape, DOCUMENTER.
