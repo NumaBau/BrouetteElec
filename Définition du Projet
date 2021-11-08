@@ -30,10 +30,12 @@ FAIT : le moteur est controlé via le
 
 - asservir en courant notre carte pour ne pas griller les composants avec un rapport cyclique trop grand (avec en consigne le courant d'essai de la carte) // pas clair
 => dimensionner un PI (ou PID filtré?) pour le 6 step
+--> datasheet ne fait pas état d'un courant d'essai, trouvé une limite à 2.29A
 
 - contacter dott pour ... documentation, possibilité d'avoir une trotinette fonctionnelle pour analyser les trames
 
 --> PREMIERE REPONSE D'Eline du projet de seconde vie des trotinettes, interéssée et voulait en savoir +, attente de son retour pour avoir une DOTT fonctionnelle.
+--> pas de réponse au tel, attente de retour à mon message
 
 - snifer le bloc commande pour analyser les trames et ainsi pouvoir controler la roue grâce à une carte et le bloc commande (en connectant la carte au variateur et au bloc commande)
 
