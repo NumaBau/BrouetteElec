@@ -1,6 +1,7 @@
 le CAN, Controller Area Network, c'est un type de bus de données utilisé dans les réseaux multiplexés pour communiquer entre plusieurs microcontrolleurs.
 
 Une trame CAN, ça ressemble à ça: [SOF]||[ID]||[Command]||[DATA]||[CRC]||[ACK]||[EOF] .
+
 avec:
 - [SOF]: le début de la trame, c'est un bit tjrs égal à 0
 - [ID]: l'identificateur, sur 11 bits, qui donne l'identité de l'émetteur
@@ -8,4 +9,10 @@ avec:
 - [Command]: 6 bits qui donnent le nombre d'octets transmis dans la partie [DATA]. on peut être sur que le MSB sera TOUJOURS égal à 0
 car les données ne peuvent pas contenir plus de 8 octets.
 - [DATA]: ce qui nous intéresse! contient de 0 à 8 octets de données.
-- [
+- [CRC]: Cyclic Redudance Control. 16 bits utilisés pour permettre à la réception de s'assurer que le signal a été bien transmis.
+- [ACK]: Acknowledge Bits, 2 bits qui permettent de savoir si la trame a été lue par un noeud.
+- [EOF]: End of Frame, 7 bits à 1 qui indiquent la fin du message.
+
+
+Important: le protocole CAN emploie des bits de stuffing pour perturber les chaînes de bits similaires trop longues (plus de 5 éléments). Ceux-ci parasitent 
+évidemment l'information et sont donc à retirer pour une bonne lecture.
