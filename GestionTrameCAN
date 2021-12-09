@@ -16,3 +16,8 @@ car les données ne peuvent pas contenir plus de 8 octets.
 
 Important: le protocole CAN emploie des bits de stuffing pour perturber les chaînes de bits similaires trop longues (plus de 5 éléments). Ceux-ci parasitent 
 évidemment l'information et sont donc à retirer pour une bonne lecture.
+
+
+Utilisation d'un bitscope: voir BitscopeLogicUserGuide pour plus d'infos.
+La solution Bitscope, proposé par M.Prevost, permet bien l'analyse de trames CAN.
+Il faut pour cela sélectionner 'CAN' dans 
