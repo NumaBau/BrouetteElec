@@ -20,4 +20,5 @@ Important: le protocole CAN emploie des bits de stuffing pour perturber les cha�
 
 Utilisation d'un bitscope: voir BitscopeLogicUserGuide pour plus d'infos.
 La solution Bitscope, proposé par M.Prevost, permet bien l'analyse de trames CAN.
-Il faut pour cela sélectionner 'CAN' dans 
+Il faut pour cela sélectionner 'CAN' dans le protocol Nybble, et sélectionner le nombre de pistes que l'on souhaite lire (4 par défaut, possibilité d'en retirer).
+
