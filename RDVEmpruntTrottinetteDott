@@ -4,3 +4,22 @@ Il faut:
 - voir ce qu'on peut faire, ou non, à la trottinette (aspect légal).
 - voir cb de temps on peut garder la trottinette
 - voir si Dott attend des résultats de notre part
+
+COMPTE RENDU RDV DOTT
+
+Pour l'heure, Mayeul est entrain de voir dans quel cadre DOTT pourrait mettre une trotinette à notre diposition ( aspect legal, propriété intellectuelle de la solution ect...)
+Néanmoins, nous avons un libre acces à leur banc de test pour réaliser toutes les mesures souhaitées (dès 14H30 quand les mecaniciens ont terminé leur journée)
+
+L'écran affichant la vitesse, le niveau de batterie est en réalité le cerveau de la trottinette. Il reçoit des informations d'un asservisseur, qu'il lui indique que la trotinette
+est bien libérée, puis communique avec le bloc de commande en lui transmettant les informations du potentiomètre.
+
+Il pourrait alors être interessant d'analyser les trames reçues du bloc asservisseur afin de pouvoir libérer la trotinette est réutiliser directement les composants fonctionnels
+mais à recycler (qu'ils possèdent en grandes quantités dans des bennes à leur entrepot). On pourrait alors se passer de la carte MCLV-2 et 
+controler le moteur uniquement avec des matériaux recylés. 
+
+Nous allons néanmoins avoir des difficultés à assurer une alimentation portative. Les batteries sont des blocs imposants et scellés pesant une quinzaine de kilos.
+Il est impossible de garantir l'intégrité d'une batterie venant d'une trottinette endommagée, leur recyclage est donc une problématique conséquente de notre thématique.
+
+
+
+
