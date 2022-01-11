@@ -1,0 +1,17 @@
+- Arrivée sur site avec Bitscope Prêt à l'emploi, pour mesures sur la jonction rouge du cable
+
+- Tests réalisés sur les connections:
+  - quel cable fait quoi?
+    - Jaune = low
+    - Bleu = high
+    - vert = ? probablement un signal d'activation, qui reste à 0 ou à 1 selon l'état voulu
+    - Rouge et Noir: alimentation
+  - Est-ce vraiment un signal CAN que l'on reçoit?
+    - On obtient bien un CAN High et un CAN Low, pas de signal d'horloge
+    - Possible de récupérer les trames en mesurant la différence entre High et Low (Bleu sur L1 et Jaune sur GND par exemple) => moins de bruit, signal plus propre reconnu par le Bitscope, mais manque d'informations tout de même
+  - Déduction du schéma de fonctionnement de la trottinette
+  - Récupération du baud-rate du Bus
+    - entre 3,6 et 4 us pour 1 bit => baud rate d'environ 250 000 Bauds
+  - Récupération du DBS non déchiffré du Bus CAN de la trottinette
+    - On a pu afficher 
+  - Génération de trames CAN depuis l'extérieur de la trottinette, pour en influencer le fonctionnement
