@@ -1,19 +1,20 @@
 1)Introduction 
   a)Cdc initial (motoriser des brouettes pour tous en open source)
-  b)problématique : pièces inutilisé dans l'industrie du déplacement urbain, les révaloriser via d'autres application (open sources)
+  b)problématique : petits artisans et ouvriers ont des besoins etpièces inutilisé dans l'industrie du déplacement urbain, les révaloriser via d'autres application (open sources)
   c) explosition du plan : 
     --> renontre avec DOTT 
     --> les solutions techniques pour controler le moteur
     --> leur mise en pratique
-2) Rencontre avec DOTT :
+2) Rencontre avec DOTT :  (Dylan)
   -aucunes connaissances sur leur produit sous traité
   -volonté de réutiliser leur produit (moteur avec pneus flingué à la benne alors que ..)
   -prise de consience de la posibilité de shunt le serveur pour reutiliser + 
-3) Principe de base : controler un moteur on peut soit : 
-  a) asservissement pour controle 
-  b) trame
+3) Principe de base :objectifs : enoncé, clarté, vue d'ensemble et analyse
+--> controler un moteur on peut soit : 
+  a) asservissement pour controle (Dylan)
+  b) trame (Numa)
 4) Exposé du travail pratique
-  a) asservissement (no success + pas pertinent au vu du projet)
-  b) trames (+ interessant)
+  a) asservissement (no success + pas pertinent au vu du projet) (Dylan)
+  b) trames (+ interessant) (Numa)
 5) Conclusion
-
+conclusion avant tout sur l'avancement technique et la future collaboration possible entre l'insa et DOTT qu'a ouvert notre projet
